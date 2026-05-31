@@ -1,17 +1,17 @@
 <div align="center">
 
 ```
-██████╗ ██╗   ██╗████████╗██╗  ██╗ ██████╗ ███╗   ██╗
-██╔══██╗╚██╗ ██╔╝╚══██╔══╝██║  ██║██╔═══██╗████╗  ██║
-██████╔╝ ╚████╔╝    ██║   ███████║██║   ██║██╔██╗ ██║
-██╔═══╝   ╚██╔╝     ██║   ██╔══██║██║   ██║██║╚██╗██║
-██║        ██║      ██║   ██║  ██║╚██████╔╝██║ ╚████║
-╚═╝        ╚═╝      ╚═╝   ╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═══╝
+                ██████╗ ██╗   ██╗████████╗██╗  ██╗ ██████╗ ███╗   ██╗
+                ██╔══██╗╚██╗ ██╔╝╚══██╔══╝██║  ██║██╔═══██╗████╗  ██║
+                ██████╔╝ ╚████╔╝    ██║   ███████║██║   ██║██╔██╗ ██║
+                ██╔═══╝   ╚██╔╝     ██║   ██╔══██║██║   ██║██║╚██╗██║
+                ██║        ██║      ██║   ██║  ██║╚██████╔╝██║ ╚████║
+                ╚═╝        ╚═╝      ╚═╝   ╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═══╝
 ```
 
 ### 🐍 Python Fundamentals
 
-> A structured Python fundamentals repository — from basic syntax to Exception Handling, with personal notes and practice implementations.
+> A structured Python fundamentals repository — from basic syntax all the way to Iterators, Generators & Decorators, with personal notes and practice implementations.
 
 <br/>
 
@@ -26,47 +26,69 @@
 
 ## 📌 About
 
-This is my **structured Python learning journal** — covering core concepts from the ground up.
+This is my **structured Python learning journal** — covering core concepts from the ground up all the way to advanced Python features.
 Every notebook contains clean code, personal notes, and practice problems to reinforce understanding.
 
 Built to master:
 - Core Python syntax — variables, operators, control flow
+- Strings, Lists, Tuples, Sets, Dictionaries
 - Functions — args, kwargs, lambda, scope
-- All major data structures — lists, tuples, sets, dicts
-- Object-Oriented Programming from scratch
-- Exception handling & writing robust code
-- Building a strong base for Data Science & ML
+- Object-Oriented Programming from scratch (3 parts!)
+- File Handling, Exception Handling
+- Advanced Python — Namespaces, Decorators, Iterators & Generators
 
 ---
 
 ## 📚 Topics Covered
 
-| # | Topic | Description |
-|---|-------|-------------|
-| 01 | 🔢 Variables & Data Types | int, float, str, bool, type casting |
-| 02 | ➕ Operators | Arithmetic, comparison, logical, bitwise |
-| 03 | 🔀 Control Flow | if-else, for loops, while loops, break, continue |
-| 04 | 🔧 Functions | def, args, kwargs, lambda, scope |
-| 05 | 🗂️ Data Structures | Lists, Tuples, Sets, Dictionaries |
-| 06 | 🔤 Strings | String methods, slicing, formatting, f-strings |
-| 07 | 🏛️ Object-Oriented Programming | Classes, objects, inheritance, polymorphism, encapsulation |
-| 08 | ⚠️ Exception Handling | try-except-finally, custom exceptions, error types |
+| # | Topic | Notebook |
+|---|-------|----------|
+| 01 | 🐍 Python Fundamentals | `session1_python_fundamentals.ipynb` |
+| 02 | ➕ Operators, if-else & Loops | `session2_operators_if_else_loops.ipynb` |
+| 03 | 🔤 Strings & Lists | `session3_strings_lists.ipynb` |
+| 04 | 📋 Python Lists (Deep Dive) | `session_4_python_lists.ipynb` |
+| 05 | 🗂️ Tuples, Sets & Dictionary | `python_tuple_sets_dictionary.ipynb` |
+| 06 | 🔧 Functions | `session6_functions.ipynb` |
+| 07 | 🏛️ OOP — Part 1 | `session7_OOP.ipynb` |
+| 08 | 🏛️ OOP — Part 2 | `session8_oop_part2.ipynb` |
+| 09 | 🏛️ OOP — Part 3 | `session9_oop_part3.ipynb` |
+| 10 | 📁 File Handling | `session10_file_handling.ipynb` |
+| 11 | ⚠️ Exception Handling | `session11_exception_handling.ipynb` |
+| 12 | 🏷️ Namespaces & Decorators | `session12_namespaces_decorators.ipynb` |
+| 13 | 🔁 Iterators | `Iterators.ipynb` |
+| 14 | ⚡ Generators | `generators-demo.ipynb` |
+
+### 🗒️ Practice & Tasks
+
+| File | Description |
+|------|-------------|
+| `session_1_tasks.ipynb` | Practice tasks — Session 1 |
+| `session_2_task.ipynb` | Practice tasks — Session 2 |
 
 ---
 
 ## 🗂️ Repository Structure
 
 ```bash
-Python-Fundamentals/
+PYTHON-FUNDAMENTALS/
 │
-├── 📓 variables_datatypes.ipynb
-├── 📓 operators.ipynb
-├── 📓 control_flow.ipynb
-├── 📓 functions.ipynb
-├── 📓 data_structures.ipynb
-├── 📓 strings.ipynb
-├── 📓 oops.ipynb
-├── 📓 exception_handling.ipynb
+├── 📓 session1_python_fundamentals.ipynb
+├── 📓 session2_operators_if_else_loops(updated).ipynb
+├── 📓 session3_strings_lists.ipynb
+├── 📓 session_4_python_lists.ipynb
+├── 📓 python_tuple_sets_dictionary.ipynb
+├── 📓 session6_functions.ipynb
+├── 📓 session7_OOP.ipynb
+├── 📓 session8_oop_part2.ipynb
+├── 📓 session9_oop_part3.ipynb
+├── 📓 session9_oop_part3 (1).ipynb
+├── 📓 session10_file_handling.ipynb
+├── 📓 session11_exception_handling.ipynb
+├── 📓 session12_namespaces_decorators.ipynb
+├── 📓 Iterators.ipynb
+├── 📓 generators-demo.ipynb
+├── 📓 session_1_tasks.ipynb
+├── 📓 session_2_task.ipynb
 └── 📄 README.md
 ```
 
@@ -76,10 +98,10 @@ Python-Fundamentals/
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/amit-0333/Python-Fundamentals.git
+git clone https://github.com/amit-0333/PYTHON-FUNDAMENTALS.git
 
 # 2. Navigate into the folder
-cd Python-Fundamentals
+cd PYTHON-FUNDAMENTALS
 
 # 3. Install Jupyter
 pip install jupyter
@@ -97,20 +119,23 @@ jupyter notebook
 2. 🔨 Follow along with examples from the lecture
 3. 🚀 Experiment with my own variations and edge cases
 4. 🧹 Add personal notes and observations as comments
-5. ✅ Solve practice problems to solidify understanding
+5. ✅ Solve practice tasks to solidify understanding
 ```
 
 ---
 
 ## 🎯 Learning Goals
 
-- [x] Understand Variables, Data Types & Operators
-- [x] Master Control Flow — loops, conditions, break/continue
-- [x] Write clean, reusable Functions
-- [x] Work with all Python Data Structures
-- [x] Handle Strings — slicing, formatting, f-strings
-- [x] Implement OOP — classes, inheritance, polymorphism
-- [x] Handle Exceptions gracefully with try-except-finally
+- [x] Python basics — variables, data types, operators
+- [x] Control flow — loops, if-else, break, continue
+- [x] Strings, Lists, Tuples, Sets, Dictionaries
+- [x] Functions — def, args, kwargs, lambda, scope
+- [x] OOP — classes, inheritance, polymorphism, encapsulation
+- [x] File Handling — read, write, append
+- [x] Exception Handling — try-except-finally, custom exceptions
+- [x] Namespaces & Decorators
+- [x] Iterators — `__iter__`, `__next__`
+- [x] Generators — `yield`, generator expressions
 - [ ] Add more practice problems per topic
 - [ ] Build a mini project using all concepts
 - [ ] Prepare interview-ready Python solutions
@@ -146,6 +171,6 @@ jupyter notebook
 
 > 📝 *This repository is continuously updated as I revise and add more practice problems.*
 
-⭐ **Star this repo if it helped you with Python basics!**
+⭐ **Star this repo if it helped you with Python!**
 
 </div>
